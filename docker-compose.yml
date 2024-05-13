@@ -1,0 +1,52 @@
+version: "3.4"
+
+services:
+    nginx:
+        build:
+            context: .
+            dockerfile: build/nginx/Dockerfile
+        ports:
+            - "8001:80"
+        volumes:
+            - ./symfony:/var/www/symfony/
+        networks:
+            network:
+                ipv4_address: 10.5.0.2
+        restart: always
+    php:
+        build:
+            context: .
+            dockerfile: build/php/Dockerfile
+        depends_on:
+            - database
+        restart: unless-stopped
+        extra_hosts:
+            - "host.docker.internal:host-gateway"
+        networks:
+            network:
+                ipv4_address: 10.5.0.3
+        volumes:
+            - ./symfony/:/var/www/symfony/
+    database:
+        image: mysql:8.0
+        ports:
+            - "3306:3306"
+        networks:
+            network:
+                ipv4_address: 10.5.0.4
+        volumes:
+            - ./data/mysql/development/:/var/lib/mysql
+        environment:
+            MYSQL_ROOT_PASSWORD: password
+            MYSQL_DATABASE: app
+            MYSQL_USER: user
+            MYSQL_PASSWORD: password
+        restart: always
+
+networks:
+    network:
+        driver: bridge
+        ipam:
+            config:
+                -   subnet: 10.5.0.0/16
+                    gateway: 10.5.0.1

@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d325e0c4-e23b-4d67-b4e5-5c716599c966" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" notifyAboutMissingVendor="false" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/symfony/composer.json</pharConfigPath>
+    <execution>
+      <executable path="composer" />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dockerfile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;mieczynski&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/mieczynski/lsi.git&quot;,
+    &quot;accountId&quot;: &quot;fee5606b-002e-459e-8d91-532a225bde1d&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/symfony/.env" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="php">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/cache-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/framework-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/flex" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/vendor/symfony/runtime" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php83" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dotenv" />
+      <path value="$PROJECT_DIR$/symfony/vendor/masterminds/html5" />
+      <path value="$PROJECT_DIR$/symfony/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/symfony/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/symfony/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/symfony/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/symfony/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/symfony/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/symfony/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/symfony/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/symfony/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/symfony/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/symfony/vendor/doctrine/sql-formatter" />
+      <path value="$PROJECT_DIR$/symfony/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/symfony/vendor/doctrine/migrations" />
+      <path value="$PROJECT_DIR$/symfony/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/symfony/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/symfony/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/symfony/vendor/doctrine/deprecations" />
+      <path value="$PROJECT_DIR$/symfony/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/symfony/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/symfony/vendor/doctrine/doctrine-migrations-bundle" />
+      <path value="$PROJECT_DIR$/symfony/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/symfony/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/symfony/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/symfony/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/symfony/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/symfony/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/symfony/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/symfony/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/symfony/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/symfony/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/symfony/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/symfony/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/security-bundle" />
+      <path value="$PROJECT_DIR$/symfony/vendor/twig/extra-bundle" />
+      <path value="$PROJECT_DIR$/symfony/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/symfony/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/symfony/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/symfony/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/symfony/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/http-client-contracts" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/monolog-bundle" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/property-access" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/validator" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/browser-kit" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/doctrine-messenger" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/asset-mapper" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/mailer" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/clock" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/doctrine-bridge" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/twig-bundle" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/options-resolver" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/security-http" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/security-core" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/web-profiler-bundle" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/web-link" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/security-csrf" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/maker-bundle" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/expression-language" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/notifier" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/debug-bundle" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/property-info" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/serializer" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/stimulus-bundle" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/ux-turbo" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/messenger" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/form" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/asset" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/intl" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/password-hasher" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/http-client" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/twig-bridge" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/monolog-bridge" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/symfony/vendor/phpstan/phpdoc-parser" />
+      <path value="$PROJECT_DIR$/symfony/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/symfony/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/symfony/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/symfony/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/symfony/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/symfony/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/symfony/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/symfony/vendor/composer" />
+      <path value="$PROJECT_DIR$/symfony/vendor/psr/clock" />
+      <path value="$PROJECT_DIR$/symfony/vendor/psr/link" />
+      <path value="$PROJECT_DIR$/symfony/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/symfony/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/symfony/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/symfony/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/symfony/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/runtime" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/polyfill-php83" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/dotenv" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/framework-bundle" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/flex" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/cache-contracts" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/symfony/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/symfony/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/symfony/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/symfony/vendor/monolog/monolog" />
+    </include_path>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2fgWv51ICNI0Wjfk1J4hLrtM7BO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Docker.docker-compose.yml.database: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml.nginx: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.CollectionProviderTest.testNonValidCollectionProvider.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.CollectionProviderTest.testValidCollectionProvider.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.Export.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.ExportFilterNormalizerTest.testNonValidExportFilterNormalizer.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.ExportFilterNormalizerTest.testValidExportFilterNormalizer.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.ExportFilterProviderTest.testNonValidExportFilterProvider.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.ExportFilterProviderTest.testValidExportFilterProvider.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.ExportFilterTest.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.ExportFilterTest.testExportFilterNonExist.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.ExportFilterTest.testIfExportFilterExist.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.ExportFilterTest.testValidExportNormalizer.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.ExportNormalizerTest.testIfExportNormalizerExist.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.ExportNormalizerTest.testNonValidExportNormalizer.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.ExportNormalizerTest.testValidExportNormalizer.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.ExportRepositoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.ExportRepositoryTest.testFindByFilterFunction.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.ExportRepositoryTest.testIfExportRepositoryExists.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.Main.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.testFindByFilterFunction.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary&quot;: &quot;PHPUnit&quot;,
+    &quot;credentialsType com.jetbrains.php.remote.interpreter.ui.PhpCreateRemoteSdkForm&quot;: &quot;Docker Compose&quot;,
+    &quot;credentialsType com.jetbrains.php.remote.interpreter.ui.PhpInplaceEditRemoteSdkForm&quot;: &quot;Docker Compose&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;php.override.implement.member.chooser.php.doc&quot;: &quot;NONE&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/symfony" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/build/nginx" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHPUnit.Export">
+    <configuration name="Export" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner configuration_file="/var/www/symfony/phpunit.xml.dist" directory="$PROJECT_DIR$/symfony/tests/Export" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ExportFilterTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="php" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
+      <TestRunner class="App\Tests\Export\ExportFilterTest" configuration_file="/var/www/symfony/phpunit.xml.dist" file="$PROJECT_DIR$/symfony/tests/Export/ExportFilterNormalizerTest.php" scope="Class" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ExportRepositoryTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="App\Tests\Export\ExportRepositoryTest" configuration_file="/var/www/symfony/phpunit.xml.dist" file="$PROJECT_DIR$/symfony/tests/Export/ExportRepositoryTest.php" scope="Class" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ExportRepositoryTest.testFindByFilterFunction" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="App\Tests\Export\ExportRepositoryTest" configuration_file="/var/www/symfony/phpunit.xml.dist" file="$PROJECT_DIR$/symfony/tests/Export/ExportRepositoryTest.php" method="testFindByFilterFunction" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ExportRepositoryTest.testIfExportRepositoryExists" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="App\Tests\Export\ExportRepositoryTest" configuration_file="/var/www/symfony/phpunit.xml.dist" file="$PROJECT_DIR$/symfony/tests/Export/ExportRepositoryTest.php" method="testIfExportRepositoryExists" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Main" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner configuration_file="$PROJECT_DIR$/symfony/phpunit.xml.dist" scope="XML" use_alternative_configuration_file="true" />
+      <method v="2" />
+    </configuration>
+    <configuration name="testFindByFilterFunction" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner configuration_file="/var/www/symfony/phpunit.xml.dist" file="$PROJECT_DIR$/symfony/tests/Export/ExportRepositoryTest.php" scope="Pattern">
+        <test_patterns>
+          <composite_test_pattern class_fqn="App\Tests\Export\ExportRepositoryTest" file_path="$PROJECT_DIR$/symfony/tests/Export/ExportRepositoryTest.php" dataset="#0" method_name="testFindByFilterFunction" />
+        </test_patterns>
+      </TestRunner>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="PHPUnit.Main" />
+      <item itemvalue="PHPUnit.ExportFilterTest" />
+      <item itemvalue="PHPUnit.Export" />
+      <item itemvalue="PHPUnit.ExportRepositoryTest" />
+      <item itemvalue="PHPUnit.ExportRepositoryTest.testFindByFilterFunction" />
+      <item itemvalue="PHPUnit.ExportRepositoryTest.testIfExportRepositoryExists" />
+      <item itemvalue="PHPUnit.testFindByFilterFunction" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.Export" />
+        <item itemvalue="PHPUnit.ExportRepositoryTest.testFindByFilterFunction" />
+        <item itemvalue="PHPUnit.testFindByFilterFunction" />
+        <item itemvalue="PHPUnit.ExportRepositoryTest" />
+        <item itemvalue="PHPUnit.ExportRepositoryTest.testIfExportRepositoryExists" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-PS-241.15989.102" />
+        <option value="bundled-php-predefined-ba97393d7c68-c76157a7178b-com.jetbrains.php.sharedIndexes-PS-241.15989.102" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d325e0c4-e23b-4d67-b4e5-5c716599c966" name="Changes" comment="" />
+      <created>1714223429103</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714223429103</updated>
+      <workItem from="1714223433380" duration="10521000" />
+      <workItem from="1714306783188" duration="11573000" />
+      <workItem from="1714334662897" duration="6577000" />
+      <workItem from="1714341654925" duration="1635000" />
+      <workItem from="1715596936210" duration="585000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

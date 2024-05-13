@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Eksporty</title>
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.js"></script>
+        <script>
+                $(document).ready( function () {
+                        $('#myTable').DataTable({
+                                "paging": true,
+                                "lengthChange": false,
+                                "pageLength": 20,
+                                "searching": false,
+                                "info": false,
+                                "ordering": false,
+                                "pagingType": "simple",
+                                "sScrollY": ($(window).height() - 600),
+
+                        });
+                } );
+
+                $(document).ready( function () {
+                        $('.filter-reset').click(function(){
+                                $('#fromDate').val('');
+                                $('#toDate').val('');
+                                $('#place').val('');
+                        });
+                });
+
+        </script>
+        <style>
+                .container {
+                        display: flex;
+                        align-items: flex-start;
+                }
+                .left-section {
+                        width: 20%;
+                        margin-right: 20px;
+                        text-align: center;
+                        padding: 5px;
+                }
+                .right-section {
+                        width: 80%;
+                        background-color: #ececec;
+                        border: 1px solid #ddd;
+                        border-radius: 5px;
+                        padding: 20px;
+                }
+                .filter-form {
+                        margin-bottom: 20px;
+                        padding: 20px;
+                        background-color: #ececec;
+                        border: 1px solid #ddd;
+                        border-radius: 5px;
+                        margin-left: auto;
+                        margin-right: auto;
+                        width: 80%;
+                        height: calc(100vh - 525px);
+
+                }
+                .filter-form label {
+                        margin-right: 10px;
+                }
+                .filter-form input[type="text"] {
+                        width: 100%;
+                        padding: 5px;
+                        border: 1px solid #ccc;
+                        border-radius: 3px;
+                        box-sizing: border-box;
+                }
+                .filter-submit {
+                        padding: 10px 20px;
+                        background-color: #4CAF50;
+                        color: white;
+                        border: none;
+                        border-radius: 5px;
+                        cursor: pointer;
+                        width: 125px;
+
+                }
+                .filter-reset {
+                        padding: 10px 20px;
+                        background-color: #960505;
+                        color: white;
+                        border: none;
+                        border-radius: 5px;
+                        cursor: pointer;
+                        width: 125px;
+
+                }
+                .filter-submit:hover {
+                        background-color: #45a049;
+                }
+        </style>
+        <script>
+                $( function() {
+                        $( ".datepicker" ).datepicker({
+                                dateFormat: "yy-mm-dd"
+                        });
+                } );
+        </script>
+</head>
+<body>
+<div class="container">
+        <div class="left-section">
+                <form class="filter-form" action="" method="GET">
+                                <input  type="text" id="place" name="place" placeholder="Lokal:" value="{{ place }}"><br><br>
+                                <input type="text" id="fromDate" name="fromDate" class="datepicker" placeholder="Od:" value="{{ fromDate }}"><br><br>
+                                <input type="text" id="toDate" name="toDate" class="datepicker" placeholder="Do:" value="{{ toDate }}"><br><br>
+                                <button class="filter-submit" type="submit">Zatwierdź</button>
+                                <button class="filter-reset" type="submit">Resetuj</button>
+                </form>
+        </div>
+        <div class="right-section">
+                <table id="myTable" class="cell-border stripe">
+                        <thead >
+                        <tr >
+                                <th>Nazwa</th>
+                                <th>Data</th>
+                                <th>Godzina</th>
+                                <th>Użytkownik</th>
+                                <th>Lokal</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {% for export in exports %}
+                                <tr>
+                                        <td>{{ export.name }}</td>
+                                        <td>{{ export.date }}</td>
+                                        <td>{{ export.time }}</td>
+                                        <td>{{ export.user }}</td>
+                                        <td>{{ export.place }}</td>
+                                </tr>
+                        {% endfor %}
+                        </tbody>
+                </table>
+        </div>
+</div>
+</body>
+</html>
